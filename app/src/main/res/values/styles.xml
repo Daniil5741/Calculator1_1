@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorBack</item>
+        <item name="colorPrimaryDark">@color/colorBack</item>
+        <item name="colorAccent">@color/Black</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MyStyleText">
+        <item name="android:textSize">36sp</item>
+        <item name="android:color">@color/Black</item>
+        <item name="android:fontFamily">@font/als_spb</item>
+    </style>
+
+    <style name="RoundedCornerButton" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="background">@drawable/btn_rounded_corner</item>
+        <item name="colorButtonNormal">@color/design_default_color_primary</item>
+        <item name="colorControlHighlight">#673ab7</item>
+    </style>
+
+    <style name="Foreground">
+        <item name="android:background">@color/colorBack</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/als_spb</item>
+
+    </style>
+
+
+</resources>

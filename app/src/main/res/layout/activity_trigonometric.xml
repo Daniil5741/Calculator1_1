@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Trigonometric"
+    style="@style/Foreground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edit_a_trigonometric"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="a"
+            android:inputType="numberDecimal"
+            android:foregroundTint="@color/Black"
+            style="@style/MyStyleText"></EditText>
+
+    </LinearLayout>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="grad"
+        android:id="@+id/checkbox_grad"
+        style="@style/MyStyleText"></CheckBox>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="rad"
+        android:id="@+id/checkbox_rad"
+        style="@style/MyStyleText"></CheckBox>
+
+    <Button
+        android:id="@+id/button_sin_trigonometric"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="sin(a)"
+        style="@style/Button"></Button>
+
+    <Button
+        android:id="@+id/button_cos_trigonometric"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="cos(a)"
+        style="@style/Button"></Button>
+
+    <Button
+        android:id="@+id/button_tg_trigonometric"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="tg(a)"
+        style="@style/Button"></Button>
+
+    <TextView
+        android:id="@+id/text_trigonometric"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/als_spb"
+        style="@style/MyStyleText"></TextView>
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Exponentiation"
+    style="@style/Foreground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/long_a"
+            android:id="@+id/edit_a_exponentation"
+            android:inputType="numberDecimal"
+            style="@style/MyStyleText"></EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/degree_int_b"
+            android:id="@+id/edit_b_exponentation"
+            android:inputType="numberDecimal"
+            style="@style/MyStyleText"></EditText>
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_exponentation"
+        android:layout_gravity="center"
+        android:text="@string/calculate_a_b"
+        style="@style/Button"></Button>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_exponentation"
+
+
+        style="@style/MyStyleText"></TextView>
+
+
+</LinearLayout>

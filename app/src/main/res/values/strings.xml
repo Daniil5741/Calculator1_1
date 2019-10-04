@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Calculator1_1</string>
+    <string name="division">division</string>
+    <string name="multiplier">multiplier</string>
+    <string name="subtraction">subtraction</string>
+    <string name="addition">addition</string>
+    <string name="exponentiation">Exponentiation</string>
+    <string name="trigonometric_function">Trigonometric function</string>
+    <string name="logarithmic">Logarithmic</string>
+    <string name="title_activity_addition">Addition</string>
+    <string name="title_activity_subtraction">Subtraction</string>
+    <string name="title_activity_exponentiation">Exponentiation</string>
+    <string name="title_activity_trigonometric">Trigonometric</string>
+    <string name="title_activity_logarithmic">Logarithmic</string>
+    <string name="calculator">Calculator</string>
+    <string name="calculate_a_b">Сalculate a^b</string>
+    <string name="degree_int_b">degree (int b)</string>
+    <string name="long_a">long a</string>
+    <string name="the_base_int_b">the base</string>
+    <string name="calculate_log_a_with_base_b">Сalculate log(a) with base b</string>
+    <string name="arithmetic_operations">Arithmetic operations</string>
+    <string name="long_b">long b</string>
+</resources>

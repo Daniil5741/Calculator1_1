@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Foreground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ArithmeticOperations">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/EditArifmeticIntA"
+            style="@style/MyStyleText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="long a"
+            android:inputType="numberDecimal">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/EditArifmeticIntB"
+            style="@style/MyStyleText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/long_b"
+            android:inputType="numberDecimal"></EditText>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/addition"
+            style="@style/Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/addition"></Button>
+
+        <Button
+            android:id="@+id/subtraction"
+            style="@style/Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/subtraction"
+
+            ></Button>
+
+        <Button
+            android:id="@+id/multiplication"
+            style="@style/Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="multiplication"></Button>
+
+        <Button
+            android:id="@+id/division"
+            style="@style/Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/division"></Button>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textArithmetic"
+        style="@style/MyStyleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+
+</LinearLayout>
