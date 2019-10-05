@@ -102,7 +102,10 @@ public class Exponentiation extends AppCompatActivity implements View.OnClickLis
         String answer = String.valueOf(a);
         BigInteger bigInteger = new BigInteger(answer);
         BigInteger two = bigInteger;
-        for (int i = 0; i < b; i++) {
+        if(b==0){
+            return "1";
+        }
+        for (int i = 0; i < b-1; i++) {
             bigInteger = bigInteger.multiply(two);
         }
         answer = bigInteger.toString();

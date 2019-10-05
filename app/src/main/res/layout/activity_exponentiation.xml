@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -18,7 +17,7 @@
             android:layout_weight="1"
             android:hint="@string/long_a"
             android:id="@+id/edit_a_exponentation"
-            android:inputType="numberDecimal"
+            android:inputType="number"
             style="@style/MyStyleText"></EditText>
 
         <EditText
@@ -27,7 +26,7 @@
             android:layout_weight="1"
             android:hint="@string/degree_int_b"
             android:id="@+id/edit_b_exponentation"
-            android:inputType="numberDecimal"
+            android:inputType="number"
             style="@style/MyStyleText"></EditText>
     </LinearLayout>
     <Button

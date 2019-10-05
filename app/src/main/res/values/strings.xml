@@ -14,7 +14,7 @@
     <string name="title_activity_logarithmic">Logarithmic</string>
     <string name="calculator">Calculator</string>
     <string name="calculate_a_b">Сalculate a^b</string>
-    <string name="degree_int_b">degree (int b)</string>
+    <string name="degree_int_b">degree b</string>
     <string name="long_a">long a</string>
     <string name="the_base_int_b">the base</string>
     <string name="calculate_log_a_with_base_b">Сalculate log(a) with base b</string>

@@ -80,12 +80,12 @@ public class Trigonometric extends AppCompatActivity implements View.OnClickList
             return;
         }
         String measure = "";
-        if (checkBoxRad.isChecked()) {
+        if (checkBoxGrad.isChecked()) {
             a = Math.toRadians(a);
-            measure = "(Rad)";
+            measure = "(GRad)";
         } else {
             a = Math.toDegrees(a);
-            measure = "(Grad)";
+            measure = "(Rad)";
         }
         switch (view.getId()) {
             case R.id.button_sin_trigonometric:
@@ -93,11 +93,11 @@ public class Trigonometric extends AppCompatActivity implements View.OnClickList
                 textView.setText("sin = " + String.format("%.12f", Math.sin(a)) + " " + measure);
                 break;
             case R.id.button_cos_trigonometric:
-                answer.setAns(String.valueOf("cos = " + String.format("%.12f", Math.cos(a)) + " " + measure));
+                answer.setAns("cos = " + String.format("%.12f", Math.cos(a)) + " " + measure);
                 textView.setText("cos = " + String.format("%.12f", Math.cos(a)) + " " + measure);
                 break;
             case R.id.button_tg_trigonometric:
-                answer.setAns(String.valueOf("tg= " + String.format("%.12f", Math.tan(a)) + " " + measure));
+                answer.setAns("tg= " + String.format("%.12f", Math.tan(a)) + " " + measure);
                 textView.setText("tg= " + String.format("%.12f", Math.tan(a)) + " " + measure);
                 break;
             default:
